@@ -1,0 +1,80 @@
+body {
+    background-color: lightcoral;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.div-tabla {
+    display: flex;
+    border: solid;
+    border-color: rgb(255, 204, 127);
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    justify-self: center;
+    padding: 10px;
+}
+
+#arq-leon {
+    background-image: url(/JavaScript/07_Clase_07/Ejercicio-1/Img/leon.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#arq-aguila {
+    background-image: url(/JavaScript/07_Clase_07/Ejercicio-1/Img/aguila.jpg);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+
+#arq-oso {
+    background-image: url(/JavaScript/07_Clase_07/Ejercicio-1/Img/oso.png);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#arq-lobo {
+    background-image: url(/JavaScript/07_Clase_07/Ejercicio-1/Img/lobo.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.div-arquetipo {
+    visibility: hidden;
+    background-color: azure;
+    border-radius: 10px;
+    border: solid;
+    border-color: black;
+    width: 70%;
+    height: fit-content;
+    color: azure;
+    align-items: center;
+}
+
+.foto-arq {
+    display: flex;
+    width: 500px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    text-justify: newspaper;
+}

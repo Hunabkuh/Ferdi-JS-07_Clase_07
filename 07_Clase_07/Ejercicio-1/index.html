@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mascotas</title>
+  </head>
+  <body>
+    <h1>Escoge un arquetipo animal</h1>
+    <p>
+      Escribe en el campo de texto el animal que consideras como tu arquetipo:
+    </p>
+
+    <input type="text" id="seleccion-lista" placeholder="Animal" />
+    <input type="button" value="Enviar" onclick="cambiadorFotos()" />
+
+    <section id="tabla-anim">
+
+      <div class="div-tabla">
+        <div id="arq-lobo">1</div>
+        <div id="arq-leon">2</div>
+        <div id="arq-aguila">3</div>
+        <div id="arq-oso">4</div>
+      </div>
+
+    </section>
+
+    <section id="sec-descripciones">
+
+      <div class="div-arquetipo" id="div-lobo">
+      <img class="foto-arq" src="/JavaScript/07_Clase_07/Ejercicio-1/Img/lobo.jpg" alt="loboferoz">
+      Cuando aparece el tótem lobo, es por que estamos en un punto de nuestras vidas que necesitamos un guía espiritual. Quienes tienen al lobo como animal espiritual, suelen ser personas con inquietudes espirituales, incluso pueden ser profesores o simplemente personas que enseñen constantemente a otras acerca de la vida, la moral y la fe. Es por ello que se considera que el lobo es el maestro de los maestros.
+      <br>
+      De esta forma, el tótem lobo elige ser el guía espiritual de aquellos que entienden en profundidad la vida y su forma de ser. De este modo, el lobo representa la fe y la comprensión profunda. Es más, quien tenga al tótem lobo, probablemente se sentirá identificado con el hecho de que el lobo evita la violencia a toda costa, prefiriendo en todo caso gruñir o adoptar alguna postura altiva para mostrar su dominio. Del mismo modo, el lobo es un animal muy incomprendido al que han etiquetado de malvados y de sangre fría, cuando en realidad son altamente amistosos y sociales.
+      </div>
+
+      <div class="div-arquetipo" id="div-leon">
+
+      <img class="foto-arq" src="/JavaScript/07_Clase_07/Ejercicio-1/Img/leon.jpg" alt="leonferoz">
+      El león, mamífero felino, es uno de los animales más representados en las artes a lo largo de la historia. Es un icono presente en todas las culturas, portador de valores como el poder, la fuerza, el valor, la realeza o la dignidad, adoptado indistintamente en contextos seculares y religiosos.
+      <br>
+      En el mundo medieval, desde un punto de vista semántico, se caracteriza por su ambivalencia al encarnar valores positivos y negativos opuestos. Las raíces de este doble simbolismo están presentes tanto en los autores de la Antigüedad como en la Biblia, que aclama a Cristo como “león de Judá” a la par que equipara al felino con el Anticristo. Posee, pues, una clara dimensión cristológica potenciada por los exegetas y la literatura zoológica cristiana. Además, es el símbolo de San Marcos y en tanto que integrante del Tetramorfos acompaña las representaciones de la Maiestas.
+      </div>
+
+      <div class="div-arquetipo" id="div-aguila">
+
+      <img class="foto-arq" src="/JavaScript/07_Clase_07/Ejercicio-1/Img/aguila.jpg" alt="loboferoz">
+      El águila es el símbolo de la altura y también de la conexión con lo divino por su proximidad con el sol. Pero, ante todo, el tótem animal águila representa el principio de la espiritualidad. Por eso, los indios norteamericanos usaban siempre plumas de águila para sus rituales y también en su día a día. Parece que les ayudaba a conectar con lo espiritual, por ello es un animal tan apreciado dentro del chamanismo.
+      <br>Este animal vuela tan alto que suele decirse que lo hace junto a los dioses, y ese sería el verdadero motivo de su sabiduría. Además, debido a su rapidez, vuelo intrépido y su vínculo con el fuego y el trueno, suele pensarse que aquellos que tienen el águila como animal de poder son valientes, fuertes y nobles.
+      </div>
+
+      <div class="div-arquetipo" id="div-oso">
+
+      <img class="foto-arq" src="/JavaScript/07_Clase_07/Ejercicio-1/Img/oso.png" alt="loboferoz">
+      En su mayor parte, el simbolismo del oso negro tiene que ver con la introspección. Específicamente, el significado del oso es dejarte saber que es tiempo de ir hacia adentro y explorar la noción de tu propia existencia. Por lo tanto, deben profundizar en su corazón para encontrar el significado de su camino y viaje. En esencia, el simbolismo del oso te está notificando que eres libre de vagar a voluntad y seguir tu camino.
+      <br>Si este mamífero tiene cachorros cerca o un cachorro te visita, el mensaje es que te asegures de acercar a tus hijos a ti. En otras palabras, el simbolismo del oso significa que usted necesita conectarse con los niños a su alrededor y asegurarse de que estén a salvo, libres de miedo y libres de daño. Por otro lado, el simbolismo del oso pardo reconoce que quizás eres demasiado sensible a las invasiones y amenazas percibidas. Proteger su espacio es algo bueno. Sin embargo, es posible que usted esté reaccionando exageradamente a la situación.
+      </div>
+
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
